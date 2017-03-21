@@ -1,0 +1,27 @@
+{
+  "name": "week6-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
+    "react-router-dom": "next",
+    "react-scripts": "^0.9.5",
+    "redux": "^3.6.0",
+    "tachyons": "^4.6.2",
+    "todomvc-app-css": "^2.0.6",
+    "todomvc-common": "^1.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "api": "json-server --watch db.json --port 8080"
+  },
+  "devDependencies": {
+    "json-server": "^0.9.6"
+  }
+}
